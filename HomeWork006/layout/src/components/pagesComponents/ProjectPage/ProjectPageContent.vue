@@ -36,7 +36,7 @@ export default {
   },
   name: 'ProjectPageContent',
 
-  data () {
+  data() {
     return {
       projects: [],
       projectsOne: [
@@ -192,12 +192,12 @@ export default {
     }
   },
 
-  created () {
+  created() {
     this.projects = this.projectsOne
   },
 
   methods: {
-    activCategories (data) {
+    activCategories(data) {
       switch (data.id) {
         case 1:
           this.projects = this.projectsTwo

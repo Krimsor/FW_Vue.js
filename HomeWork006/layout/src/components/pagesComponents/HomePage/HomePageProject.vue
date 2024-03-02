@@ -28,7 +28,7 @@
 export default {
   name: 'HomePageProject',
 
-  data () {
+  data() {
     return {
       projectList: [
         {
@@ -63,7 +63,7 @@ export default {
     }
   },
 
-  mounted () {
+  mounted() {
 
   },
 

@@ -11,13 +11,13 @@
 export default {
   name: 'BlogPageBaner',
 
-  data () {
+  data() {
     return {
 
     }
   },
 
-  mounted () {
+  mounted() {
 
   },
 

@@ -24,7 +24,7 @@ export default {
   name: 'ProjectPageProjects',
   props: ['projects'],
 
-  data () {
+  data() {
     return {
 
     }

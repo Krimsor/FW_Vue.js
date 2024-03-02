@@ -64,7 +64,7 @@
 export default {
   name: 'BlogDetailsPageArticles',
 
-  data () {
+  data() {
     return {
       findelement: '',
       contentsArticles: [
@@ -110,17 +110,17 @@ export default {
     }
   },
 
-  mounted () {
+  mounted() {
 
   },
 
   methods: {
-    filterClick (item) {
+    filterClick(item) {
       this.findelement = item
     }
   },
   computed: {
-    filterArticle () {
+    filterArticle() {
       return this.findelement
         ? this.contentsArticles.filter((el) => el.tag.includes(this.findelement))
         : this.contentsArticles

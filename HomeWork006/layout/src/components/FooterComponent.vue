@@ -39,13 +39,13 @@
 export default {
   name: 'FooterComponent',
 
-  data () {
+  data() {
     return {
 
     }
   },
 
-  mounted () {
+  mounted() {
 
   },
 

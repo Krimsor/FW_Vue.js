@@ -16,13 +16,13 @@
 export default {
   name: 'HeaderComponent',
 
-  data () {
+  data() {
     return {
 
     }
   },
 
-  mounted () {
+  mounted() {
 
   },
 

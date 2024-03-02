@@ -11,13 +11,13 @@
 export default {
   name: 'ProjectPageBaner',
 
-  data () {
+  data() {
     return {
 
     }
   },
 
-  mounted () {
+  mounted() {
 
   },
 

@@ -25,7 +25,7 @@ export default {
   name: 'ArticlesComponent',
 
   props: ['quantity'],
-  data () {
+  data() {
     return {
       articles: [
         {
@@ -94,14 +94,14 @@ export default {
       ]
     }
   },
-  mounted () {
+  mounted() {
 
   },
   methods: {
 
   },
   computed: {
-    filterListArticles () {
+    filterListArticles() {
       return this.articles.filter((item) => item.id < this.quantity)
     }
   }

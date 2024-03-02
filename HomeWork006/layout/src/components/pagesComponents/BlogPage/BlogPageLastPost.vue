@@ -24,13 +24,13 @@
 export default {
   name: 'BlogPageLastPost',
 
-  data () {
+  data() {
     return {
 
     }
   },
 
-  mounted () {
+  mounted() {
 
   },
 

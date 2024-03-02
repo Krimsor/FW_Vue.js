@@ -12,7 +12,7 @@
 export default {
   name: 'ProjectPageCategories',
 
-  data () {
+  data() {
     return {
       categoriesList: [
         {
@@ -40,7 +40,7 @@ export default {
   },
 
   methods: {
-    isActive (data) {
+    isActive(data) {
       this.categoriesList.forEach(element => {
         element.activCategories = false
       })

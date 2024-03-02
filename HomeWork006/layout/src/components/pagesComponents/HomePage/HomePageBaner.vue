@@ -18,26 +18,27 @@
 
 <script>
 export default {
-  name: 'HomePageBaner',
+   name: 'HomePageBaner',
 
-  data () {
-    return {
+   data() {
+      return {
 
-    }
-  },
+      }
+   },
 
-  mounted () {
+   mounted() {
 
-  },
+   },
 
-  methods: {
+   methods: {
 
-  }
+   }
 }
 </script>
 
 <style lang="scss" scoped>
 @import "../../../scss/vars";
+
 .baner {
    &__wrap {
       height: 758px;
@@ -45,9 +46,11 @@ export default {
       background-repeat: no-repeat;
       border-radius: 75px;
    }
+
    &__wrap-content {
       padding: 208px 715px 0 52px;
    }
+
    &__title {
       margin-bottom: 18px;
       color: #292f36;
@@ -57,6 +60,7 @@ export default {
       font-weight: $font-400;
       line-height: 125%;
    }
+
    &__text {
       color: #4d5053;
       font-family: $familyText;
@@ -67,6 +71,7 @@ export default {
       letter-spacing: 0.22px;
       margin-bottom: 21px;
    }
+
    &__button-text {
       width: 220px;
       padding: 26px 0;
@@ -78,6 +83,7 @@ export default {
       flex-wrap: nowrap;
       justify-content: center;
       align-items: center;
+
       & p {
          color: #fff;
          font-family: $familyText;
@@ -88,5 +94,4 @@ export default {
          letter-spacing: 0.36px;
       }
    }
-}
-</style>
+}</style>

@@ -10,32 +10,34 @@
 <script>
 import ArticlesComponent from '../../ArticlesComponent.vue'
 export default {
-  name: 'HomePageArticles',
-  components: {
-    ArticlesComponent
-  },
+   name: 'HomePageArticles',
+   components: {
+      ArticlesComponent
+   },
 
-  data () {
-    return {
+   data() {
+      return {
 
-    }
-  },
+      }
+   },
 
-  mounted () {
+   mounted() {
 
-  },
+   },
 
-  methods: {
+   methods: {
 
-  }
+   }
 }
 </script>
 
 <style lang="scss" scoped>
 @import "../../../scss/vars";
+
 .blog {
    margin-top: 96px;
    margin-bottom: 96px;
+
    &__title {
       margin-bottom: 12px;
       color: #292f36;
@@ -47,6 +49,7 @@ export default {
       line-height: 125%;
       letter-spacing: 1px;
    }
+
    &__text {
       padding-left: calc(($widthSite - 811px) / 2);
       padding-right: calc(($widthSite - 811px) / 2);
@@ -60,5 +63,4 @@ export default {
       line-height: 150%;
       letter-spacing: 0.22px;
    }
-}
-</style>
+}</style>

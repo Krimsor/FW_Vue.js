@@ -15,10 +15,10 @@ import ProjectPageContent from '../components/pagesComponents/ProjectPage/Projec
 
 export default {
   name: 'ProjectPage',
-  data () {
+  data() {
     return {}
   },
-  mounted () {
+  mounted() {
   },
   methods: {},
   components: {
@@ -30,5 +30,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

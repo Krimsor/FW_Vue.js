@@ -25,13 +25,13 @@
 export default {
   name: 'HomePageCounter',
 
-  data () {
+  data() {
     return {
 
     }
   },
 
-  mounted () {
+  mounted() {
 
   },
 
